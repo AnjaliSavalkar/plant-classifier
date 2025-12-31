@@ -547,7 +547,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Debug line (VERY IMPORTANT)
-st.write("✅ App started successfully")
 
 # Page config
 st.set_page_config(
@@ -556,6 +555,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.write("✅ App started successfully")
+
 
 # ===========================
 # Load model & resources
